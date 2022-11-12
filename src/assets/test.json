@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the average of first five multiples of 12?", 
+        "answer":"36",
+        "option1":"36",
+        "option2":"40",
+        "option3":"45",
+        "option4":"44"
+    },
+    {
+        "question": "Average of five numbers is 20. If each number is multiplied by 2, what will be the new average?",
+        "answer" :"40",
+        "option1":"45",
+        "option2":"55",
+        "option3":"40",
+        "option4":"60"
+    },
+    {
+        "question":"If the average of three consecutive even numbers is 34, find the largest of these numbers.",
+        "answer":"36",
+        "option1":"30",
+        "option2":"36",
+        "option3":"40",
+        "option4":"44"
+    },
+    {
+        "question":"10 typists can type 600 pages in 8 hours.Find the average number of pages typed by each typist in an hour.",
+        "answer":"7.5 pages",
+        "option1":"7.0 pages",
+        "option2":"6.5 pages",
+        "option3":"8.5 pages",
+        "option4":"7.5 pages"
+    },
+    {
+        "question":"Q5. The average of Sohan's marks in 6 subjects is 74. If his average in five subjects excluding science is 70, how many marks he obtained in science?",
+        "answer":"94",
+        "option1":"95",
+        "option2":"94",
+        "option3":"70",
+        "option4":"80"
+    },
+    {
+        "question":"Average age of a group of 30 boys is 16 years. A boy of age 19 leaves the group and a new boy joins the group. If the new average age of the group is 15.8 years, find the age of the new boy.",
+        "answer":"13 years",
+        "option1":"13 years",
+        "option2":"15 years",
+        "option3":"16 years",
+        "option4":"14 years"
+    },
+    {
+        "question":"The average weight of 10 men is decreased by 2 kg when one of them whose weight is 60 kg is replaced by a new man. What is the weight of the new man?",
+        "answer":"40 kg",
+        "option1":"44 kg",
+        "option2":"42 kg",
+        "option3":"40 kg",
+        "option4":"45 kg"
+    },
+    {
+        "question":"The average age of 30 boys in a class is 15 years. If we include the age of two teachers the average age increases by 1. Find the sum of ages of the two teachers.",
+        "answer":"62 years",
+        "option1":"60 years",
+        "option2":"65 years",
+        "option3":"62 years",
+        "option4":"70 years"
+    },
+    {
+        "question":"The average age of the committee of 10 members is 40 years. A member of age 52 retires and a new member of age 38 takes his place. What is the average age of the present committee?",
+        "answer":"38.6 years",
+        "option1":"35.3 years",
+        "option2":"38.6 years",
+        "option3":"36.5 years",
+        "option4":"37.4 years"
+    },
+    {
+        "question":"Four years ago, the average age of A and B was 20 years. If today average age of A, B and C is 25 years, what will be age of C after 7 years?",
+        "answer":"34 years",
+        "option1":"34 years",
+        "option2":"40 years",
+        "option3":"32 years",
+        "option4":"36 years"
+    }
+  ]
