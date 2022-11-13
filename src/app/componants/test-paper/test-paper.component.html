@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+      <div class="fixed-top shadow p-3 mb-5 bg-light rounded text-success">
+           <h5 class="float-start text-start"> Score : {{score}}</h5>
+           <h5 class="float-end"> Result : {{result}}</h5>
+      </div>
+        <form action="">
+            <div class="col-sm-10 mt-5 mb-3">
+              <div class="card" *ngFor="let t of test" >
+                  <div class="card-body">
+                    <h5 class="card-title">Q{{t.id}}. {{t.question}}
+                    </h5>
+                      <div class="form-check" >
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="{{t.id}}" value="{{t.option1}}" (input)="answer($event)">{{t.option1}}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="{{t.id}}" value="{{t.option2}}" (input)="answer($event)">{{t.option2}}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="{{t.id}}" value="{{t.option3}}" (input)="answer($event)">{{t.option3}}
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="{{t.id}}" value="{{t.option4}}" (input)="answer($event)">{{t.option4}}
+                        </label>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <div *ngFor="let t of test">
+    <div>{{t.question}}</div>
+    <div>{{t.option1}}</div>
+    <div>{{t.option2}}</div>
+    <div>{{t.option3}}</div>
+    <div>{{t.option4}}</div>
+    <div>{{t.answer}}</div>
+</div> -->
